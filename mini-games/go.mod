@@ -1,4 +1,4 @@
-module youpi
+module mini-games
 
 go 1.19
 

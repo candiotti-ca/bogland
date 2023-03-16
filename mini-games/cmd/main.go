@@ -1,7 +1,7 @@
 package main
 
 import (
-	"youpi/pkg/pendu"
+	"mini-games/pkg/pendu"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
@@ -11,7 +11,7 @@ import (
 
 func main() {
 	a := app.New()
-	w := a.NewWindow("youpi")
+	w := a.NewWindow("Mini-Games!")
 
 	mainContainer := container.NewCenter()
 	footer := container.NewHBox(
